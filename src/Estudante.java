@@ -8,5 +8,14 @@ public class Estudante {
         notas = new double[5];
         // O array de notas é inicializado assim: [0.0, 0.0, 0.0, 0.0, 0.0]
     }
+
+    public insereNotas() {}
+    public double calculaMedia() {}
+
+    // Getters
+    public String getNome() {}
+    public double[] getnotas() {}
+    public double menorNota() {}
+
 }
 
