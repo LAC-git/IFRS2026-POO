@@ -1,10 +1,10 @@
-## Lampada
+## Formula 1
 ### Como executar:
 
 > Se tiver acesso a nix flakes da pra rodar `$ nix develop` pra ganhar um compilador java
 
-Os comandos a sequir compilam o código, colocam os `.class` no diretório `out` e rodam:
+Os comandos a sequir compilam o código, colocam os `.class` no diretório `out` e o rodam:
 
-`$ javac -d out src/avaliacao/lampada/Lampada.java src/Main.java"`
+`$ javac -d out ?????`
 
-`$ java -cp out Main`
+`$ java -cp out ?????`
