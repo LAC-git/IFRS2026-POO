@@ -9,6 +9,7 @@ public class Estudante {
         // O array de notas é inicializado assim: [0.0, 0.0, 0.0, 0.0, 0.0]
     }
 
+    // Métodos
     public insereNotas() {}
 
     public double calculaMedia() {
@@ -18,8 +19,9 @@ public class Estudante {
     }
 
     // Getters
-    public String getNome() {}
-    public double[] getnotas() {}
+    public String getNome() { return this.nome; }
+
+    public double[] getnotas() { return this.notas; }
 
     public double menorNota() {
 
