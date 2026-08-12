@@ -10,7 +10,12 @@ public class Estudante {
     }
 
     public insereNotas() {}
-    public double calculaMedia() {}
+
+    public double calculaMedia() {
+        double media = 0.0;
+        for (double n: this.notas) { media += n; }
+        return media;
+    }
 
     // Getters
     public String getNome() {}
