@@ -1,6 +1,7 @@
 # Segundo trimestre de 2026
 
-## Branches:
+### Branches:
+
 - lampada
 - formula1
 - atividade-avaliativa-1
