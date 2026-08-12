@@ -20,7 +20,14 @@ public class Estudante {
     // Getters
     public String getNome() {}
     public double[] getnotas() {}
-    public double menorNota() {}
+
+    public double menorNota() {
+
+        // Pegar um elemnto do array garante não iniciar com valores errados
+        double menor = this.notas[1]; 
+        for (double n: this.notas) { if n < menor { menor = n; } }
+        return menor;
+    }
 
 }
 
