@@ -5,6 +5,6 @@
 
 Os comandos a sequir compilam o código, colocam os `.class` no diretório `out` e o rodam:
 
-`$ javac -d out ?????`
+`$ javac -d out src/avaliacao/formula1/*.java`
 
-`$ java -cp out ?????`
+`$ java -cp out avaliacao.formula1.Main`
