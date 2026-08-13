@@ -18,6 +18,11 @@ public class Estudante {
         return media;
     }
 
+    public double calculaMedia(int[] pesos) {
+        // Calcula média ponderada
+        double media = 0.0;
+    }
+
     // Getters
     public String getNome() { return this.nome; }
 
