@@ -5,7 +5,7 @@ public class Estudante {
 
     public Estudante(String nome) {
         this.nome = nome;
-        notas = new double[5];
+        this.notas = new double[5];
         // O array de notas é inicializado assim: [0.0, 0.0, 0.0, 0.0, 0.0]
     }
 
@@ -16,6 +16,11 @@ public class Estudante {
         double media = 0.0;
         for (double n: this.notas) { media += n; }
         return media;
+    }
+
+    public double calculaMedia(int[] pesos) {
+        // Calcula média ponderada
+        double media = 0.0;
     }
 
     // Getters
