@@ -6,7 +6,10 @@ public class Main {
     }
 
     public estudantesAprovados(Estudantes[] ests) {
+        Estudante[] aprovados = new Estudante[];
         for (Estudante e: ests) {
+            if (e.getMedia() > 6.0) {
+            }
         }
     }
 }
