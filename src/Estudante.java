@@ -10,7 +10,7 @@ public class Estudante {
     }
 
     // Métodos
-    public insereNotas() {}
+    public void insereNotas() {}
 
     public double calculaMedia() {
         double media = 0.0;
@@ -21,6 +21,7 @@ public class Estudante {
     public double calculaMedia(int[] pesos) {
         // Calcula média ponderada
         double media = 0.0;
+        return media;
     }
 
     // Getters
@@ -32,7 +33,7 @@ public class Estudante {
 
         // Pegar um elemnto do array garante não iniciar com valores errados
         double menor = this.notas[1]; 
-        for (double n: this.notas) { if n < menor { menor = n; } }
+        for (double n: this.notas) { if (n < menor) { menor = n; } }
         return menor;
     }
 
