@@ -15,6 +15,7 @@ public class Estudante {
     public double calculaMedia() {
         double media = 0.0;
         for (double n: this.notas) { media += n; }
+        media = media/this.notas.length;
         return media;
     }
 
