@@ -6,7 +6,8 @@ public class Estudante {
     public Estudante(String nome) {
         this.nome = nome;
         this.notas = new double[5];
-        // O array de notas é inicializado assim: [0.0, 0.0, 0.0, 0.0, 0.0]
+        // O array de notas é inicializado assim:
+        // [0.0, 0.0, 0.0, 0.0, 0.0]
     }
 
     // Métodos
@@ -19,9 +20,20 @@ public class Estudante {
         return media;
     }
 
+    // Calcula média ponderada
     public double calculaMedia(int[] pesos) {
-        // Calcula média ponderada
         double media = 0.0;
+
+        // Talvez eu implemente exceções depois
+        if (pesos.length != 5) { System.exit(1); } // Sinal de erro 
+        
+        // Esse for-loop garante apenas que o array notas será
+        // percorrido completamente, sendo multiplicado pelo
+        // peso correspondente. Não garante nada sobre `pesos`
+        for (int i = 0; i < this.notas.length; i++) {
+            media += this.notas[i] * pesos[i];
+        }
+
         return media;
     }
 
@@ -31,8 +43,7 @@ public class Estudante {
     public double[] getnotas() { return this.notas; }
 
     public double menorNota() {
-
-        // Pegar um elemnto do array garante não iniciar com valores errados
+        // Pegar um elemento do array garante não iniciar com valores errados
         double menor = this.notas[1]; 
         for (double n: this.notas) { if (n < menor) { menor = n; } }
         return menor;
