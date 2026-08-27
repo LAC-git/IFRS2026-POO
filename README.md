@@ -5,6 +5,6 @@
 
 Os comandos a sequir compilam o código, colocam os `.class` no diretório `out` e rodam:
 
-`$ javac -d out src/avaliacao/lampada/Lampada.java src/Main.java"`
+`$ javac -d out src/avaliacao/lampada/Lampada.java src/Main.java`
 
 `$ java -cp out Main`
