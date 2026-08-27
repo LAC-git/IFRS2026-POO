@@ -10,5 +10,5 @@ abstract class Texto {
         return titulo;
     }
 
-    // Sem setTitulo() pq teoricamente não é possivel mudar o titulo uma vez que o livro já foi publicado
+    // Sem setTitulo() pq teoricamente não é possivel mudar o titulo uma vez que o texto já foi publicado
 }
