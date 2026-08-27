@@ -1,4 +1,4 @@
-## Atividade Avaliativa: Classe Estudante
+## Atividade Avaliativa: Biblioteca
 
 ### Como executar:
 
@@ -8,4 +8,4 @@ Os comandos a sequir compilam o código, colocam os `.class` no diretório `out`
 
 `$ javac -d out src/*.java"`
 
-`$ java -cp out Main`
+`$ java -cp out Main` -- Esse não faz nada pq a Main ta vazia
