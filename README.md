@@ -5,4 +5,5 @@
 - lampada
 - formula1
 - atividade-avaliativa-1
+- atividade-avaliativa-1-ex5
 
