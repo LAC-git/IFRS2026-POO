@@ -8,4 +8,4 @@ Os comandos a seguir compilam o código, colocam os `.class` no diretório `out`
 
 `$ javac -d out src/*.java"`
 
-`$ java -cp out Main` -- Esse não faz nada pq a Main ta vazia
+`$ java -cp out Main` > Esse não faz nada pq a Main ta vazia
