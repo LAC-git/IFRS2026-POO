@@ -12,4 +12,8 @@ public class Livro extends Texto {
         this.situacao = Situacao.DISPONIVEL;
     }
 
+    public String getSituacao() {
+        // Bora usar esse toString grátis do Enums
+        return situacao.toString();
+    }
 }
